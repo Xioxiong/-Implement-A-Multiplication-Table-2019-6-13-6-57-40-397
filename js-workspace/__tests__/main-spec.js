@@ -42,12 +42,12 @@ it ('should print multiply table', () => {
 
 it ('should generate result string', () => {
     //given
-    const array = [];
-    array[0] = [];
-    array[0][0] = "2*2=4";
+    const arr = [];
+    arr[0] = [];
+    arr[0][0] = "2*2=4";
 
     //when
-    const result = printMultiplyTable(array);
+    const result = printMultiplyTable(arr);
 
     //then
     expect(result).toBe("2*2=4 \n");
